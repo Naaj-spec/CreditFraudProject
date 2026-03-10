@@ -25,16 +25,19 @@ The system workflow follows these stages:
 •	Upload CSV transaction datasets
 •	Process up to 50,000 transactions
 •	Automatic feature scaling using a trained scaler
+
 2️⃣ Fraud Prediction
 •	Uses a trained Support Vector Machine (SVM) classifier
 •	Generates:
 o	Fraud prediction
 o	Fraud probability risk score
+
 3️⃣ Interactive Dashboard
 The Streamlit interface provides:
 •	Transaction preview
 •	Fraud-only filtered results
 •	Downloadable fraud reports
+
 4️⃣ Model Evaluation
 When the dataset includes a Class column (ground truth) the system computes:
 •	Confusion Matrix
@@ -106,9 +109,11 @@ The application will open in your browser.
 📥 Dataset Format
 The system expects a CSV dataset with transaction features.
 Example structure:
+
 Feature1	Feature2	Feature3	...	Class
 0.23	-1.44	0.56	...	0
 -2.11	1.22	-0.78	...	1
+
 Where:
 •	0 = Legitimate transaction
 •	1 = Fraudulent transaction
