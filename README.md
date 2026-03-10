@@ -136,7 +136,9 @@ Potential enhancements include:
 •	Blockchain transaction verification
 
 👨‍💻 Author
+
 NAJIB ABDI
+
 Bachelor of Information Technology
 Machine Learning & Software Development
 
