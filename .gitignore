@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model files
+*.h5
+*.keras
+*.ckpt
+
+# Dataset folders
+dataset/
+train/
+test/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+
+# Data and training files
+data/
+training_files/
+
+# Model files
+model/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output files
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
